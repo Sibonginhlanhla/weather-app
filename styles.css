@@ -1,0 +1,69 @@
+.weather-card {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(145deg, #f4f4f4, #e2e2e2);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.weather-card h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.weather-card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.top-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background: #f0f4f8;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: sans-serif;
+}
+
+.top-sec input[type="text"] {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  width: 220px;
+  transition: border-color 0.3s;
+}
+
+.top-sec input[type="text"]:focus {
+  border-color: #3399ff;
+}
+
+.top-sec button {
+  padding: 10px 20px;
+  background-color: #3399ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.top-sec button:hover {
+  background-color: #2a82d8;
+}
